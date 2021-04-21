@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8"
+        android:layout_margin="8dp"
         android:text="@string/mensagem_recebida"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/purple_700" />
@@ -20,7 +20,7 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8"
+        android:layout_margin="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         tools:text="Olá Mundo" />
 </LinearLayout>

@@ -1,5 +1,6 @@
 package com.example.mensagem
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -14,5 +15,10 @@ class MainActivity : AppCompatActivity() {
     fun enviaMensagem(view: View) {
         val editTextMensagem = findViewById<EditText>(R.id.editTextMensagem)
         val mensagem = editTextMensagem.text.toString()
+
+
+        val intent = Intent(this, MostraMensagemActivity2::class.java).apply {  }
+        intent.putExtra("MENSAGEM", mensagem)
+        startActivity(intent)
     }
 }
