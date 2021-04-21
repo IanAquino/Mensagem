@@ -10,5 +10,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    fun enviaMensagem() {}
+    fun enviaMensagem(view: View) {}
 }
