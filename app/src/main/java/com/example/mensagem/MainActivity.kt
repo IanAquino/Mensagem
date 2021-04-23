@@ -18,7 +18,11 @@ class MainActivity : AppCompatActivity() {
 
         val mensagem = editTextMensagem.text.toString()
 
+        if(mensagem.isBlank()){
+            editTextMensagem.error = "Introduza a mensagem"
+            return
 
+        }
 
         val intent = Intent(this, MostraMensagemActivity2::class.java).apply {  }
         intent.putExtra("MENSAGEM", mensagem)
