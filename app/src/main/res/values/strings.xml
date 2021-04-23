@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Mensagem</string>
+    <string name="app_name">Message</string>
     <string name="name">Name</string>
-    <string name="enviar">Enviar</string>
-    <string name="mensagem">Mensagem</string>
-    <string name="mensagem_recebida">Mensagem recebida</string>
+    <string name="enviar">Send</string>
+    <string name="mensagem">Message</string>
+    <string name="mensagem_recebida">Message receveid</string>
+    <string name="mensagem_vazia">Specify message</string>
 </resources>

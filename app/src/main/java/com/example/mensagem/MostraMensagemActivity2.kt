@@ -15,6 +15,10 @@ class MostraMensagemActivity2 : AppCompatActivity() {
 
         val textViewMensagem = findViewById<TextView>(R.id.textViewMesagem)
 
+
         textViewMensagem.text = mensagem
+
+      //  val tvDataTime.text = intent.getStringExtra((MainActivity.INFO_EXTRA_TIME))
+
     }
 }
